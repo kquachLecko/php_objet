@@ -14,12 +14,13 @@ use Application\Provider\DbConfigProvider;
 use Application\Repository\LecturerRepository;
 use Application\Router\ParseUriHelper;
 use Application\Router\Router;
-use Cinema\Controller\FilmController;
-use Cinema\Controller\ShowFilmController;
-use Cinema\Factory\FilmControllerFactory;
-use Cinema\Factory\FilmRepositoryFactory;
-use Cinema\Factory\ShowFilmControllerFactory;
-use Cinema\Repository\FilmRepository;
+
+use Meetup\Controller\MeetingController;
+use Meetup\Controller\ShowMeetingController;
+use Meetup\Factory\MeetingControllerFactory;
+use Meetup\Factory\MeetingRepositoryFactory;
+use Meetup\Factory\ShowMeetingControllerFactory;
+use Meetup\Repository\MeetingRepository;
 
 return [
     'factories' => [
@@ -35,9 +36,10 @@ return [
         IndexController::class => IndexControllerFactory::class,
         LecturerRepository::class => LecturerRepositoryFactory::class,
 
-        // Configurations liées auz films
-        FilmController::class => FilmControllerFactory::class,
-        ShowFilmController::class => ShowFilmControllerFactory::class,
-        FilmRepository::class => FilmRepositoryFactory::class,
+
+        // Configurations liées auz Meetings
+        MeetingController::class => MeetingControllerFactory::class,
+        MeetingRepository::class => MeetingRepositoryFactory::class,
+        ShowMeetingController::class => ShowMeetingControllerFactory::class,
     ],
 ];

@@ -1,0 +1,8 @@
+<?php /* @var $meetings \Application\Collection\MeetingCollection */ ?>
+<h1>Meeting</h1>
+
+<ul>
+    <?php foreach ($meetings as $meeting) : /* @var $meetings \Application\Entity\Meeting */ ?>
+        <li><?= $meeting->titre() ?></li>
+    <?php endforeach ?>
+</ul>

@@ -1,9 +1,9 @@
 {
-    "name": "engineor/ipssi-oop-php-2017",
+    "name": "TP Php object",
     "authors": [
         {
-            "name": "Thomas Dutrion",
-            "email": "thomas@engineor.com"
+            "name": "Kevin Quach",
+            "email": "kevin.quach@outlook.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     "autoload": {
         "psr-4": {
             "Application\\": "src/Application",
-            "Cinema\\": "src/Cinema"
+            "Meetup\\": "src/Meetup"
         }
     },
     "require-dev": {
