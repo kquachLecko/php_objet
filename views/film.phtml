@@ -1,0 +1,7 @@
+<?php /* @var $films \Application\Collection\FilmCollection */ ?>
+<h1>Films</h1>
+<ul>
+    <?php foreach ($films as $film) : /* @var $film \Application\Entity\Film */ ?>
+    <li><a href="film/<?= urlencode($film->name()) ?>"><?= $film->name() ?></a></li>
+    <?php endforeach ?>
+</ul>

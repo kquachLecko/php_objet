@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <ul>
+            <?php foreach ($lecturers->getLecturers() as $lecturer): /** @var $lecturer Application\Lecturer */ ?>
+                <li>
+                    <?= $lecturer->getName() ?>
+                    <ul>
+                        <?php foreach ($lecturer->getLectures() as $lecture): ?>
+                            <li><?= $lecture ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </body>
+</html>
