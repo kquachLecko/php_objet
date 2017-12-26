@@ -7,6 +7,9 @@ namespace Application\Router;
 use Application\Controller\IndexController;
 use Application\Controller\LecturerController;
 
+use Community\Controller\CommunityController;
+use Community\Controller\ShowCommunityController;
+
 use Meetup\Controller\MeetingController;
 use Meetup\Controller\ShowMeetingController;
 
@@ -52,6 +55,14 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
             $requestUriParams = explode('/', $requestUri);
             $_GET['name'] = urldecode($requestUriParams[2]);
             return ShowUserController::class;
+        }
+        if ($requestUri === '/communities') {
+            return CommunityController::class;
+        }
+        if (preg_match('#/community/.*#', $requestUri)) {
+            $requestUriParams = explode('/', $requestUri);
+            $_GET['name'] = urldecode($requestUriParams[2]);
+            return ShowCommunityController::class;
         }
         return IndexController::class;
     }

@@ -40,7 +40,6 @@ final class UserRepository
         $statement = $this->pdo->prepare('SELECT id, name  FROM users WHERE name = :name');
         $statement->execute([':name' => $name]);
         $user = $statement->fetch();
-        dump($user);
         if (!$user) {
             throw new UserNotFoundException();
         }

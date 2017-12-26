@@ -15,7 +15,8 @@
         "psr-4": {
             "Application\\": "src/Application",
             "Meetup\\": "src/Meetup",
-            "User\\": "src/User"
+            "User\\": "src/User",
+            "Community\\":"src/Community"
         }
     },
     "require-dev": {

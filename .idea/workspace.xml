@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Community/Repository/CommunityRepository.php" line="59" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31b110b4-5fe4-407b-b142-b5136a15eebd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Collection/UserCollection.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Controller/ShowUserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Controller/UserController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Entity/User.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Exception/UserNotFoundException.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Factory/ShowUserControllerFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Factory/UserControllerFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Factory/UserRepositoryFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/user-details.phtml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/user.phtml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php_objet.iml" afterPath="$PROJECT_DIR$/.idea/php_objet.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Collection/CommunityCollection.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Controller/CommunityController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Controller/ShowCommunityController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Entity/Community.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Exception/CommunityNotFoundException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Factory/CommunityControllerFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Factory/CommunityRepositoryFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Factory/ShowCommunityControllerFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Community/Repository/CommunityRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/communities.phtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/community-details.phtml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
       <change beforePath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" afterPath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
-      <change beforePath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" afterPath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" />
-      <change beforePath="$PROJECT_DIR$/src/Meetup/Entity/Meeting.php" afterPath="$PROJECT_DIR$/src/Meetup/Entity/Meeting.php" />
-      <change beforePath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" afterPath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
-      <change beforePath="$PROJECT_DIR$/views/film-details.phtml" afterPath="$PROJECT_DIR$/views/film-details.phtml" />
-      <change beforePath="$PROJECT_DIR$/views/meeting-details.phtml" afterPath="$PROJECT_DIR$/views/meeting-details.phtml" />
-      <change beforePath="$PROJECT_DIR$/views/meeting.phtml" afterPath="$PROJECT_DIR$/views/meeting.phtml" />
+      <change beforePath="$PROJECT_DIR$/src/User/Repository/UserRepository.php" afterPath="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,42 +33,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <element signature="e#63#103#0#PHP" expanded="true" />
-                <marker date="1514298292086" expanded="true" signature="448:513" ph="SELECT id, t... meetings" />
-                <marker date="1514298292086" expanded="true" signature="913:999" ph="SELECT id, t... meetings" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meeting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Meetup/Entity/Meeting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -94,11 +54,17 @@
       <find>Meet</find>
       <find>Meeting</find>
       <find>meeting</find>
+      <find>User</find>
+      <find>dump</find>
+      <find>user</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>User</replace>
       <replace>user</replace>
+      <replace>communities</replace>
+      <replace>Community</replace>
+      <replace>community</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,18 +90,29 @@
         <option value="$PROJECT_DIR$/src/User/Factory/UserControllerFactory.php" />
         <option value="$PROJECT_DIR$/src/User/Factory/UserRepositoryFactory.php" />
         <option value="$PROJECT_DIR$/src/User/Exception/UserNotFoundException.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/User/Collection/UserCollection.php" />
         <option value="$PROJECT_DIR$/views/user.phtml" />
         <option value="$PROJECT_DIR$/src/User/Controller/UserController.php" />
         <option value="$PROJECT_DIR$/src/User/Factory/ShowUserControllerFactory.php" />
         <option value="$PROJECT_DIR$/views/user-details.phtml" />
-        <option value="$PROJECT_DIR$/config/application.config.php" />
-        <option value="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
         <option value="$PROJECT_DIR$/src/User/Controller/ShowUserController.php" />
-        <option value="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Entity/Meeting.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Community/Entity/Community.php" />
+        <option value="$PROJECT_DIR$/views/communities.phtml" />
+        <option value="$PROJECT_DIR$/src/Community/Controller/CommunityController.php" />
+        <option value="$PROJECT_DIR$/config/application.config.php" />
+        <option value="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
+        <option value="$PROJECT_DIR$/views/community-details.phtml" />
+        <option value="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
+        <option value="$PROJECT_DIR$/src/Community/Collection/CommunityCollection.php" />
+        <option value="$PROJECT_DIR$/src/Community/Controller/ShowCommunityController.php" />
+        <option value="$PROJECT_DIR$/src/Community/Exception/CommunityNotFoundException.php" />
+        <option value="$PROJECT_DIR$/src/Community/Factory/CommunityControllerFactory.php" />
+        <option value="$PROJECT_DIR$/src/Community/Factory/CommunityRepositoryFactory.php" />
+        <option value="$PROJECT_DIR$/src/Community/Factory/ShowCommunityControllerFactory.php" />
+        <option value="$PROJECT_DIR$/src/Community/Repository/CommunityRepository.php" />
       </list>
     </option>
   </component>
@@ -214,21 +191,60 @@
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Meetup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Meetup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Collection" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Meetup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exception" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Factory" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Community" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -239,20 +255,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community" />
       <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kevin Quach\Desktop\php_objet\views" />
-      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Factory" />
-      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Controller" />
-      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Exception" />
-      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Entity" />
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community\Factory" />
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community\Controller" />
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community\Exception" />
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community\Collection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,18 +304,17 @@
       <workItem from="1513348486884" duration="30000" />
       <workItem from="1513348719014" duration="3878000" />
       <workItem from="1513358258188" duration="948000" />
-      <workItem from="1514280763475" duration="9645000" />
+      <workItem from="1514280763475" duration="13147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24427000" />
+    <option name="totallyTimeSpent" value="27929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -325,82 +342,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/options-resolver/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Repository/FilmRepository.php" />
-    <entry file="file://$PROJECT_DIR$/src/Application/Controller/ErrorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriSlashNotationHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriDotNotationHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cinema/Controller/FilmController.php" />
-    <entry file="file://$PROJECT_DIR$/src/Application/Exception/LecturerNotFoundException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meetup/Factory/MeetingRepositoryFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#100#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meetup/Factory/MeetingControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#60#100#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/film.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -429,14 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Router/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -612,14 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -644,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Factory/ShowUserControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/user.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -670,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="56" column="70" lean-forward="false" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
-          <folding>
-            <element signature="e#7#50#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User/Exception/UserNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -688,43 +598,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php">
+    <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Controller/ShowUserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="482">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
-            <element signature="e#61#104#0#PHP" expanded="true" />
+            <element signature="e#63#103#0#PHP" expanded="true" />
+            <marker date="1514298292086" expanded="true" signature="448:513" ph="SELECT id, t... meetings" />
+            <marker date="1514298292086" expanded="true" signature="913:999" ph="SELECT id, t... meetings" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <element signature="e#61#96#0#PHP" expanded="true" />
-            <marker date="1514295644094" expanded="true" signature="425:446" ph="SELECT id, t... meetings" />
-            <marker date="1514295644094" expanded="true" signature="425:451" ph="SELECT id, n... users" />
-            <marker date="1514295644094" expanded="true" signature="726:736" ph="SELECT id, t... meetings" />
-            <marker date="1514295644094" expanded="true" signature="726:772" ph="SELECT id, n... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,14 +618,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/User/Controller/ShowUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/Router/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="50" column="71" lean-forward="false" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Factory/ShowUserControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/community-details.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <marker date="1514301954069" expanded="true" signature="425:451" ph="SELECT id, n... users" />
+            <marker date="1514301954069" expanded="true" signature="726:772" ph="SELECT id, n... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
           <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
-            <element signature="e#63#103#0#PHP" expanded="true" />
-            <marker date="1514298292086" expanded="true" signature="448:513" ph="SELECT id, t... meetings" />
-            <marker date="1514298292086" expanded="true" signature="913:999" ph="SELECT id, t... meetings" />
+            <element signature="e#64#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/communities.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Collection/CommunityCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#66#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Controller/CommunityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Controller/ShowCommunityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#66#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Entity/Community.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Exception/CommunityNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Factory/CommunityControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Factory/CommunityRepositoryFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#63#108#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Factory/ShowCommunityControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Community/Repository/CommunityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <element signature="e#192#237#0#PHP" expanded="true" />
+            <marker date="1514302178955" expanded="true" signature="796:817" ph="SELECT id, n... users" />
+            <marker date="1514302178955" expanded="true" signature="796:828" ph="SELECT id, n... communities" />
+            <marker date="1514302178955" expanded="true" signature="1214:1266" ph="SELECT id, n... communities" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,8 @@
+<?php /* @var $users \Application\Collection\MeetingCollection */ ?>
+<h1>User</h1>
+
+<ul>
+    <?php foreach ($communities as $community) : /* @var $users \Application\Entity\Meeting */ ?>
+        <li>Name : <?= $community->getName() ?></li>
+    <?php endforeach ?>
+</ul>

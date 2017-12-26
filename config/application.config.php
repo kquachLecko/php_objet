@@ -29,6 +29,13 @@ use User\Factory\UserRepositoryFactory;
 use User\Factory\ShowUserControllerFactory;
 use User\Repository\UserRepository;
 
+use Community\Controller\CommunityController;
+use Community\Factory\CommunityControllerFactory;
+use Community\Factory\CommunityRepositoryFactory;
+use Community\Repository\CommunityRepository;
+use Community\Controller\ShowCommunityController;
+use Community\Factory\ShowCommunityControllerFactory;
+
 
 
 return [
@@ -55,5 +62,9 @@ return [
         UserController::class => UserControllerFactory::class,
         UserRepository::class => UserRepositoryFactory::class,
         ShowUserController::class => ShowUserControllerFactory::class,
+
+        CommunityController::class => CommunityControllerFactory::class,
+        CommunityRepository::class => CommunityRepositoryFactory::class,
+        ShowCommunityController::class => ShowCommunityControllerFactory::class,
     ],
 ];
