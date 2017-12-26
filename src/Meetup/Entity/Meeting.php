@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Meetup\Entity;
 
+use DateTimeImmutable;
+
 final class Meeting
 {
     /**
@@ -17,16 +19,16 @@ final class Meeting
     private $description;
 
     /**
-     * @var \DateTime
+     * @var \DateTimeImmutable
      */
     private $date_end;
 
     /**
-     * @var \DateTime
+     * @var \DateTimeImmutable
      */
     private $date_start;
 
-    public function __construct(string $titre, string $description, \DateTime $date_end, \DateTime $date_start)
+    public function __construct(string $titre, string $description, \DateTimeImmutable $date_end, \DateTimeImmutable $date_start)
     {
         $this->titre = $titre;
         $this->description = $description;

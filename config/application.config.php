@@ -21,6 +21,8 @@ use Meetup\Factory\MeetingControllerFactory;
 use Meetup\Factory\MeetingRepositoryFactory;
 use Meetup\Factory\ShowMeetingControllerFactory;
 use Meetup\Repository\MeetingRepository;
+use Meetup\Controller\ShowMeetingsByCommunityController;
+use Meetup\Factory\ShowMeetingsByCommunityControllerFactory;
 
 use User\Controller\UserController;
 use User\Controller\ShowUserController;
@@ -52,11 +54,11 @@ return [
         IndexController::class => IndexControllerFactory::class,
         LecturerRepository::class => LecturerRepositoryFactory::class,
 
-
         // Configurations liées auz Meetings
         MeetingController::class => MeetingControllerFactory::class,
         MeetingRepository::class => MeetingRepositoryFactory::class,
         ShowMeetingController::class => ShowMeetingControllerFactory::class,
+        ShowMeetingsByCommunityController::class=>ShowMeetingsByCommunityControllerFactory::class,
 
         // Configurations liées aux User
         UserController::class => UserControllerFactory::class,

@@ -12,6 +12,7 @@ use Community\Controller\ShowCommunityController;
 
 use Meetup\Controller\MeetingController;
 use Meetup\Controller\ShowMeetingController;
+use Meetup\Controller\ShowMeetingsByCommunityController;
 
 use User\Controller\UserController;
 use User\Controller\ShowUserController;
@@ -42,6 +43,11 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
             $requestUriParams = explode('/', $requestUri);
             $_GET['name'] = urldecode($requestUriParams[2]);
             return ShowMeetingController::class;
+        }
+        if (preg_match('#/meetingByCommunity/.*#', $requestUri)) {
+            $requestUriParams = explode('/', $requestUri);
+            $_GET['communityId'] = urldecode($requestUriParams[2]);
+            return ShowMeetingsByCommunityController::class;
         }
         if (preg_match('#/lecturer/.*#', $requestUri)) {
             $requestUriParams = explode('/', $requestUri);

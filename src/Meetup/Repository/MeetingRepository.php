@@ -29,7 +29,7 @@ final class MeetingRepository
 
         $meetings = [];
         while ($meeting = $result->fetch()) {
-            $meetings[] = new Meeting($meeting['title'], $meeting['description'],new \DateTime( $meeting['date_end']),new \DateTime($meeting['date_start']));
+            $meetings[] = new Meeting($meeting['title'], $meeting['description'],new \DateTimeImmutable( $meeting['date_end']),new \DateTimeImmutable($meeting['date_start']));
         }
 
         return new MeetingCollection(...$meetings);
@@ -43,6 +43,19 @@ final class MeetingRepository
         if (!$meeting) {
             throw new MeetingNotFoundException();
         }
-        return new Meeting($meeting['title'], $meeting['description'],new \DateTime( $meeting['date_start']),new \DateTime($meeting['date_end']));
+        return new Meeting($meeting['title'], $meeting['description'],new  \DateTimeImmutable( $meeting['date_end']),new \DateTimeImmutable($meeting['date_start']));
     }
+
+    public function get_Meetings_by_Community(string $communityId) : MeetingCollection
+    {
+        $statement = $this->pdo->prepare('SELECT title, description, date_start as dateStart, date_end as dateEnd FROM meetings WHERE community_id = :communityId;');
+        $statement->execute([':communityId' => $communityId]);
+        $meetings = [];
+        while ($meeting = $statement->fetch()) {
+            $meetings[] = new Meeting($meeting['title'], $meeting['description'],new \DateTimeImmutable( $meeting['dateStart']),new \DateTimeImmutable($meeting['dateEnd']));
+        }
+
+        return new MeetingCollection(...$meetings);
+    }
+
 }
