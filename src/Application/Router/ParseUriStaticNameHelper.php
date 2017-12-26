@@ -6,8 +6,13 @@ namespace Application\Router;
 
 use Application\Controller\IndexController;
 use Application\Controller\LecturerController;
+
 use Meetup\Controller\MeetingController;
 use Meetup\Controller\ShowMeetingController;
+
+use User\Controller\UserController;
+use User\Controller\ShowUserController;
+
 use Exception;
 
 use function explode;
@@ -40,7 +45,14 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
             $_GET['lecturer'] = urldecode($requestUriParams[2]);
             return LecturerController::class;
         }
-
+        if ($requestUri === '/user') {
+            return UserController::class;
+        }
+        if (preg_match('#/user/.*#', $requestUri)) {
+            $requestUriParams = explode('/', $requestUri);
+            $_GET['name'] = urldecode($requestUriParams[2]);
+            return ShowUserController::class;
+        }
         return IndexController::class;
     }
 }

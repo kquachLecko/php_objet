@@ -23,7 +23,7 @@ final class ShowMeetingController
     public function indexAction() : string
     {
         try {
-            $film = $this->meetingRepository->get($_GET['name'] ?? '');
+            $meeting = $this->meetingRepository->get($_GET['name'] ?? '');
 
             ob_start();
             include __DIR__.'/../../../views/meeting-details.phtml';

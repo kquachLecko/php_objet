@@ -23,12 +23,13 @@ final class MeetingRepository
 
     public function fetchAll() : MeetingCollection
     {
-        $result = $this->pdo->query('SELECT id, titre, description, endDate, startDate FROM meetings');
+
+        $result = $this->pdo->query('SELECT id, title, description, date_start, date_end FROM meetings');
 
 
         $meetings = [];
         while ($meeting = $result->fetch()) {
-            $meetings[] = new Meeting($meeting['titre'], $meeting['description'],new \DateTime( $meeting['endDate']),new \DateTime($meeting['startDate']));
+            $meetings[] = new Meeting($meeting['title'], $meeting['description'],new \DateTime( $meeting['date_end']),new \DateTime($meeting['date_start']));
         }
 
         return new MeetingCollection(...$meetings);
@@ -36,12 +37,12 @@ final class MeetingRepository
 
     public function get(string $name) : Meeting
     {
-        $statement = $this->pdo->prepare('SELECT id, title, description, endDate, startDate  FROM meetings WHERE title = :name');
+        $statement = $this->pdo->prepare('SELECT id, title, description, date_start, date_end  FROM meetings WHERE title = :name');
         $statement->execute([':name' => $name]);
         $meeting = $statement->fetch();
         if (!$meeting) {
             throw new MeetingNotFoundException();
         }
-        return new Meeting($meeting['titre'], $meeting['description'], $meeting['endDate'],$meeting['startDate']);
+        return new Meeting($meeting['title'], $meeting['description'],new \DateTime( $meeting['date_start']),new \DateTime($meeting['date_end']));
     }
 }

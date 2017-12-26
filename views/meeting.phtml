@@ -3,6 +3,9 @@
 
 <ul>
     <?php foreach ($meetings as $meeting) : /* @var $meetings \Application\Entity\Meeting */ ?>
-        <li><?= $meeting->titre() ?></li>
+        <li>Titre : <?= $meeting->titre() ?></li>
+        <li>Description : <?= $meeting->description() ?></li>
+        <li>Debut : <?= $meeting->endDate() ?></li>
+        <li>Fin : <?= $meeting->startDate() ?></li>
     <?php endforeach ?>
 </ul>

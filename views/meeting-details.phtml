@@ -1,2 +1,9 @@
 <?php /* @var $meeting \Application\Entity\Meeting */ ?>
-<h1>Film details : <?= $meeting->titre();$meeting->description() ?></h1>
+<h1>Meeting Detail</h1>
+
+<ul>
+        <li>Titre : <?= $meeting->titre() ?></li>
+        <li>Description : <?= $meeting->description() ?></li>
+        <li>Debut : <?= $meeting->endDate() ?></li>
+        <li>Fin : <?= $meeting->startDate() ?></li>
+</ul>

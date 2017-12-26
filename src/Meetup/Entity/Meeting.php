@@ -19,19 +19,19 @@ final class Meeting
     /**
      * @var \DateTime
      */
-    private $endDate;
+    private $date_end;
 
     /**
      * @var \DateTime
      */
-    private $startDate;
+    private $date_start;
 
-    public function __construct(string $titre, string $description, \DateTime $endDate, \DateTime $startDate)
+    public function __construct(string $titre, string $description, \DateTime $date_end, \DateTime $date_start)
     {
         $this->titre = $titre;
         $this->description = $description;
-        $this->endDate = $endDate;
-        $this->startDate = $startDate;
+        $this->date_end = $date_end;
+        $this->date_start = $date_start;
     }
 
     public function titre() : string
@@ -44,13 +44,14 @@ final class Meeting
         return $this->description;
     }
 
-    public function endDate() : \DateTime
+    public function endDate() : string
     {
-        return $this->endDate;
+        return $this->date_end->format('Y-m-d H:i:s');
     }
 
-    public function startDate() : \DateTime
+    public function startDate() : string
     {
-        return $this->startDate;
+        return $this->date_start->format('Y-m-d H:i:s');;
     }
+
 }

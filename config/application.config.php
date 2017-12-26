@@ -22,6 +22,15 @@ use Meetup\Factory\MeetingRepositoryFactory;
 use Meetup\Factory\ShowMeetingControllerFactory;
 use Meetup\Repository\MeetingRepository;
 
+use User\Controller\UserController;
+use User\Controller\ShowUserController;
+use User\Factory\UserControllerFactory;
+use User\Factory\UserRepositoryFactory;
+use User\Factory\ShowUserControllerFactory;
+use User\Repository\UserRepository;
+
+
+
 return [
     'factories' => [
         // Configuration du "framework applicatif"
@@ -41,5 +50,10 @@ return [
         MeetingController::class => MeetingControllerFactory::class,
         MeetingRepository::class => MeetingRepositoryFactory::class,
         ShowMeetingController::class => ShowMeetingControllerFactory::class,
+
+        // Configurations liées aux User
+        UserController::class => UserControllerFactory::class,
+        UserRepository::class => UserRepositoryFactory::class,
+        ShowUserController::class => ShowUserControllerFactory::class,
     ],
 ];
