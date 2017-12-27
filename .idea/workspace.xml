@@ -2,23 +2,14 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/Community/Repository/CommunityRepository.php" line="59" mnemonic="8" />
-    <bookmark url="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" description="&#10;" line="39" />
+    <bookmark url="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" description="&#10;" line="53" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b110b4-5fe4-407b-b142-b5136a15eebd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingDetailsController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Meetup/Factory/ShowMeetingDetailsControllerFactory.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/application.config.php" afterPath="$PROJECT_DIR$/config/application.config.php" />
       <change beforePath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" afterPath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
+      <change beforePath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" afterPath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" />
       <change beforePath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" afterPath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
-      <change beforePath="$PROJECT_DIR$/src/User/Controller/ShowUserController.php" afterPath="$PROJECT_DIR$/src/User/Controller/ShowUserController.php" />
-      <change beforePath="$PROJECT_DIR$/src/User/Controller/UserController.php" afterPath="$PROJECT_DIR$/src/User/Controller/UserController.php" />
-      <change beforePath="$PROJECT_DIR$/src/User/Repository/UserRepository.php" afterPath="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
-      <change beforePath="$PROJECT_DIR$/views/communities.phtml" afterPath="$PROJECT_DIR$/views/communities.phtml" />
-      <change beforePath="$PROJECT_DIR$/views/meeting-details.phtml" afterPath="$PROJECT_DIR$/views/meeting-details.phtml" />
-      <change beforePath="$PROJECT_DIR$/views/user-details.phtml" afterPath="$PROJECT_DIR$/views/user-details.phtml" />
-      <change beforePath="$PROJECT_DIR$/views/user.phtml" afterPath="$PROJECT_DIR$/views/user-meetings.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,78 +23,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="meeting.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowMeetingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseUriStaticNameHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="45" />
+              <folding>
+                <element signature="e#64#107#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="380">
+              <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
               <folding>
                 <element signature="e#63#103#0#PHP" expanded="true" />
-                <marker date="1514386164188" expanded="true" signature="499:564" ph="SELECT id, t... meetings" />
-                <marker date="1514386164188" expanded="true" signature="988:1074" ph="SELECT id, t... meetings" />
-                <marker date="1514386164188" expanded="true" signature="1529:1617" ph="SELECT id, t... meetings" />
-                <marker date="1514386164188" expanded="true" signature="2112:2231" ph="SELECT title... meetings" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowMeetingDetailsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingDetailsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#63#106#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meeting-details.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/meeting-details.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-meetings.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/user-meetings.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-details.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/user-details.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User/Repository/UserRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
-              <folding>
-                <element signature="e#62#93#0#PHP" expanded="true" />
-                <marker date="1514386423883" expanded="true" signature="708:734" ph="SELECT id, n... users" />
-                <marker date="1514386423883" expanded="true" signature="1072:1118" ph="SELECT id, n... users" />
-                <marker date="1514386423883" expanded="true" signature="1465:1799" ph="SELECT u.nam... users" />
-                <marker date="1514386423883" expanded="true" signature="2501:3034" ph="SELECT u.nam... users" />
-                <marker date="1514386423883" expanded="true" signature="2501:3630" ph="SELECT u.nam... " />
-                <marker date="1514386423883" expanded="true" signature="3097:3630" ph="SELECT u.nam... users" />
-                <marker date="1514386423883" expanded="true" signature="4282:4585" ph="SELECT u.id users" />
+                <marker date="1514387732732" expanded="true" signature="690:755" ph="SELECT id, t... meetings" />
+                <marker date="1514387732732" expanded="true" signature="1245:1331" ph="SELECT id, t... meetings" />
+                <marker date="1514387732732" expanded="true" signature="1858:1946" ph="SELECT id, t... meetings" />
+                <marker date="1514387732732" expanded="true" signature="2410:2499" ph="SELECT id, t... meetings" />
+                <marker date="1514387732732" expanded="true" signature="3037:3156" ph="SELECT title... meetings" />
               </folding>
             </state>
           </provider>
@@ -134,6 +97,7 @@
       <find>user</find>
       <find>meeting-deta</find>
       <find>dump</find>
+      <find>user_meetings</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -182,7 +146,6 @@
         <option value="$PROJECT_DIR$/views/meeting.phtml" />
         <option value="$PROJECT_DIR$/src/User/Collection/User_MeetingsCollection" />
         <option value="$PROJECT_DIR$/src/Meetup/Collection/Meeting_CommunityCollection.php" />
-        <option value="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Entity/Meeting.php" />
         <option value="$PROJECT_DIR$/src/Community/Entity/Community.php" />
         <option value="$PROJECT_DIR$/views/user.phtml" />
@@ -194,12 +157,13 @@
         <option value="$PROJECT_DIR$/src/User/Controller/ShowUserByMeetingController.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Controller/ShowUserByMeetingController.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
-        <option value="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Factory/ShowMeetingDetailsControllerFactory.php" />
-        <option value="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
         <option value="$PROJECT_DIR$/src/User/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingDetailsController.php" />
         <option value="$PROJECT_DIR$/views/meeting-details.phtml" />
+        <option value="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
+        <option value="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" />
+        <option value="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
       </list>
     </option>
   </component>
@@ -267,17 +231,44 @@
             <path>
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="fixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Meetup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Meetup" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -338,17 +329,18 @@
       <workItem from="1513348486884" duration="30000" />
       <workItem from="1513348719014" duration="3878000" />
       <workItem from="1513358258188" duration="948000" />
-      <workItem from="1514280763475" duration="35007000" />
+      <workItem from="1514280763475" duration="36029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49789000" />
+    <option name="totallyTimeSpent" value="50811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -629,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingsByCommunityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -751,26 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -803,20 +771,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/Repository/UserRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingDetailsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        <state relative-caret-position="346">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
-            <element signature="e#62#93#0#PHP" expanded="true" />
-            <marker date="1514386423883" expanded="true" signature="708:734" ph="SELECT id, n... users" />
-            <marker date="1514386423883" expanded="true" signature="1072:1118" ph="SELECT id, n... users" />
-            <marker date="1514386423883" expanded="true" signature="1465:1799" ph="SELECT u.nam... users" />
-            <marker date="1514386423883" expanded="true" signature="2501:3034" ph="SELECT u.nam... users" />
-            <marker date="1514386423883" expanded="true" signature="2501:3630" ph="SELECT u.nam... " />
-            <marker date="1514386423883" expanded="true" signature="3097:3630" ph="SELECT u.nam... users" />
-            <marker date="1514386423883" expanded="true" signature="4282:4585" ph="SELECT u.id users" />
+            <element signature="e#63#106#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/meeting-details.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,35 +805,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+          <folding>
+            <element signature="e#62#93#0#PHP" expanded="true" />
+            <marker date="1514386423883" expanded="true" signature="708:734" ph="SELECT id, n... users" />
+            <marker date="1514386423883" expanded="true" signature="1072:1118" ph="SELECT id, n... users" />
+            <marker date="1514386423883" expanded="true" signature="1465:1799" ph="SELECT u.nam... users" />
+            <marker date="1514386423883" expanded="true" signature="2501:3034" ph="SELECT u.nam... users" />
+            <marker date="1514386423883" expanded="true" signature="2501:3630" ph="SELECT u.nam... " />
+            <marker date="1514386423883" expanded="true" signature="3097:3630" ph="SELECT u.nam... users" />
+            <marker date="1514386423883" expanded="true" signature="4282:4585" ph="SELECT u.id users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/meeting.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#64#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        <state relative-caret-position="380">
+          <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
           <folding>
             <element signature="e#63#103#0#PHP" expanded="true" />
-            <marker date="1514386164188" expanded="true" signature="499:564" ph="SELECT id, t... meetings" />
-            <marker date="1514386164188" expanded="true" signature="988:1074" ph="SELECT id, t... meetings" />
-            <marker date="1514386164188" expanded="true" signature="1529:1617" ph="SELECT id, t... meetings" />
-            <marker date="1514386164188" expanded="true" signature="2112:2231" ph="SELECT title... meetings" />
+            <marker date="1514387732732" expanded="true" signature="690:755" ph="SELECT id, t... meetings" />
+            <marker date="1514387732732" expanded="true" signature="1245:1331" ph="SELECT id, t... meetings" />
+            <marker date="1514387732732" expanded="true" signature="1858:1946" ph="SELECT id, t... meetings" />
+            <marker date="1514387732732" expanded="true" signature="2410:2499" ph="SELECT id, t... meetings" />
+            <marker date="1514387732732" expanded="true" signature="3037:3156" ph="SELECT title... meetings" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingDetailsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#63#106#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/meeting-details.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -23,10 +23,9 @@ final class ShowMeetingController
     public function indexAction() : string
     {
         try {
-            $meeting = $this->meetingRepository->get($_GET['name'] ?? '');
-
+            $meetings = $this->meetingRepository->getMeetingToCome();
             ob_start();
-            include __DIR__.'/../../../views/meeting-details.phtml';
+            include __DIR__.'/../../../views/meeting.phtml';
             return ob_get_clean();
         } catch (MeetingNotFoundException $exception) {
             return (new ErrorController($exception))->error404Action();

@@ -17,7 +17,6 @@ use Meetup\Controller\ShowMeetingDetailsController;
 
 use User\Controller\UserController;
 use User\Controller\ShowUserController;
-
 use Exception;
 
 use function explode;
@@ -44,9 +43,7 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
         if ($requestUri === '/meeting') {
             return MeetingController::class;
         }
-        if (preg_match('#/meeting/.*#', $requestUri)) {
-            $requestUriParams = explode('/', $requestUri);
-            $_GET['name'] = urldecode($requestUriParams[2]);
+        if ($requestUri === '/meeting-to-come') {
             return ShowMeetingController::class;
         }
         if (preg_match('#/meetingByCommunity/.*#', $requestUri)) {
@@ -66,11 +63,6 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
         }
         if ($requestUri === '/organiser_meeting') {
             return ShowUserController::class;
-        }
-        if (preg_match('#/user_meetings/.*#', $requestUri)) {
-            $requestUriParams = explode('/', $requestUri);
-            $_GET['name'] = urldecode($requestUriParams[2]);
-            return ShowUserByMeetingController::class;
         }
         if ($requestUri === '/communities') {
             return CommunityController::class;
