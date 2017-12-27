@@ -7,7 +7,9 @@ namespace Meetup\Repository;
 use Meetup\Collection\MeetingCollection;
 use Meetup\Entity\Meeting;
 use Meetup\Exception\MeetingNotFoundException;
+use User\Entity\User;
 use PDO;
+use Zend\Stdlib\ArrayObject;
 
 final class MeetingRepository
 {

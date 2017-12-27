@@ -28,6 +28,12 @@ final class Meeting
      */
     private $date_start;
 
+
+    /**
+     * @var \Community\Entity\Community
+     */
+    private $community;
+
     public function __construct(string $titre, string $description, \DateTimeImmutable $date_end, \DateTimeImmutable $date_start)
     {
         $this->titre = $titre;

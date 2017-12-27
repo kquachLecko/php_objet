@@ -54,7 +54,9 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
             $_GET['lecturer'] = urldecode($requestUriParams[2]);
             return LecturerController::class;
         }
-        if ($requestUri === '/user') {
+        if (preg_match('#/user_meetings/.*#', $requestUri)) {
+            $requestUriParams = explode('/', $requestUri);
+            $_GET['name'] = urldecode($requestUriParams[2]);
             return UserController::class;
         }
         if (preg_match('#/user/.*#', $requestUri)) {
