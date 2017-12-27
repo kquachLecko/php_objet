@@ -13,6 +13,7 @@ use Community\Controller\ShowCommunityController;
 use Meetup\Controller\MeetingController;
 use Meetup\Controller\ShowMeetingController;
 use Meetup\Controller\ShowMeetingsByCommunityController;
+use Meetup\Controller\ShowMeetingDetailsController;
 
 use User\Controller\UserController;
 use User\Controller\ShowUserController;
@@ -24,6 +25,10 @@ use function preg_match;
 use function substr;
 use function urldecode;
 
+/**
+ * Class ParseUriStaticNameHelper
+ * @package Application\Router
+ */
 final class ParseUriStaticNameHelper implements ParseUriHelper
 {
     /**
@@ -49,20 +54,23 @@ final class ParseUriStaticNameHelper implements ParseUriHelper
             $_GET['communityId'] = urldecode($requestUriParams[2]);
             return ShowMeetingsByCommunityController::class;
         }
-        if (preg_match('#/lecturer/.*#', $requestUri)) {
+        if (preg_match('#/meeting-details/.*#', $requestUri)) {
             $requestUriParams = explode('/', $requestUri);
-            $_GET['lecturer'] = urldecode($requestUriParams[2]);
-            return LecturerController::class;
+            $_GET['meetingId'] = urldecode($requestUriParams[2]);
+            return ShowMeetingDetailsController::class;
         }
         if (preg_match('#/user_meetings/.*#', $requestUri)) {
             $requestUriParams = explode('/', $requestUri);
             $_GET['name'] = urldecode($requestUriParams[2]);
             return UserController::class;
         }
-        if (preg_match('#/user/.*#', $requestUri)) {
+        if ($requestUri === '/organiser_meeting') {
+            return ShowUserController::class;
+        }
+        if (preg_match('#/user_meetings/.*#', $requestUri)) {
             $requestUriParams = explode('/', $requestUri);
             $_GET['name'] = urldecode($requestUriParams[2]);
-            return ShowUserController::class;
+            return ShowUserByMeetingController::class;
         }
         if ($requestUri === '/communities') {
             return CommunityController::class;

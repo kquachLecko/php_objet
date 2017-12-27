@@ -1,9 +1,15 @@
 <?php /* @var $meeting \Application\Entity\Meeting */ ?>
-<h1>Meeting Detail</h1>
+<h1>Meeting : <?= $meeting->titre() ?></h1>
 
 <ul>
-        <li>Titre : <?= $meetings->titre() ?></li>
         <li>Description : <?= $meeting->description() ?></li>
         <li>Debut : <?= $meeting->endDate() ?></li>
         <li>Fin : <?= $meeting->startDate() ?></li>
 </ul>
+
+    <h1>Attendees</h1>
+<?php foreach ($users as $user) : /* @var $meetings \Application\Entity\Meeting */ ?>
+    <ul>
+        <li>name : <?= $user->name() ?></li>
+    </ul>
+<?php endforeach ?>

@@ -1,6 +1,15 @@
-<?php /* @var $meeting \Application\Entity\Meeting */ ?>
-<h1>User Detail</h1>
+<?php /* @var $users \Application\Collection\MeetingCollection */ ?>
 
-<ul>
-        <li>Titre : <?= $user->name() ?></li>
-</ul>
+
+    <h2>Organiser</h2>
+
+<?php foreach ($data as $organiser) : /* @var $meetings \Application\Entity\Meeting */ ?>
+    <ul>
+        <h1>Organiser : <?= $organiser[0]->name() ?></h1>
+        <li>Titre : <?= $organiser[1]->titre() ?></li>
+        <li>Description : <?= $organiser[1]->description() ?></li>
+        <li>Debut : <?= $organiser[1]->endDate() ?></li>
+        <li>Fin : <?= $organiser[1]->startDate() ?></li>
+
+    </ul>
+<?php endforeach ?>

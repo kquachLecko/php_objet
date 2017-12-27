@@ -23,6 +23,8 @@ use Meetup\Factory\ShowMeetingControllerFactory;
 use Meetup\Repository\MeetingRepository;
 use Meetup\Controller\ShowMeetingsByCommunityController;
 use Meetup\Factory\ShowMeetingsByCommunityControllerFactory;
+use Meetup\Controller\ShowMeetingDetailsController;
+use Meetup\Factory\ShowMeetingDetailsControllerFactory;
 
 use User\Controller\UserController;
 use User\Controller\ShowUserController;
@@ -59,6 +61,7 @@ return [
         MeetingRepository::class => MeetingRepositoryFactory::class,
         ShowMeetingController::class => ShowMeetingControllerFactory::class,
         ShowMeetingsByCommunityController::class=>ShowMeetingsByCommunityControllerFactory::class,
+        ShowMeetingDetailsController::class => ShowMeetingDetailsControllerFactory::class,
 
         // Configurations liées aux User
         UserController::class => UserControllerFactory::class,

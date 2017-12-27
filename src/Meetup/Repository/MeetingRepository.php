@@ -37,7 +37,7 @@ final class MeetingRepository
         return new MeetingCollection(...$meetings);
     }
 
-    public function get(string $name) : Meeting
+    public function getByName(string $name) : Meeting
     {
         $statement = $this->pdo->prepare('SELECT id, title, description, date_start, date_end  FROM meetings WHERE title = :name');
         $statement->execute([':name' => $name]);
@@ -47,7 +47,16 @@ final class MeetingRepository
         }
         return new Meeting($meeting['title'], $meeting['description'],new  \DateTimeImmutable( $meeting['date_end']),new \DateTimeImmutable($meeting['date_start']));
     }
-
+    public function getById(string $meetingId) : Meeting
+    {
+        $statement = $this->pdo->prepare('SELECT id, title, description, date_start, date_end  FROM meetings WHERE id = :meetingId');
+        $statement->execute([':meetingId' => $meetingId]);
+        $meeting = $statement->fetch();
+        if (!$meeting) {
+            throw new MeetingNotFoundException();
+        }
+        return new Meeting($meeting['title'], $meeting['description'],new  \DateTimeImmutable( $meeting['date_end']),new \DateTimeImmutable($meeting['date_start']));
+    }
     public function get_Meetings_by_Community(string $communityId) : MeetingCollection
     {
         $statement = $this->pdo->prepare('SELECT title, description, date_start as dateStart, date_end as dateEnd FROM meetings WHERE community_id = :communityId;');
@@ -59,5 +68,4 @@ final class MeetingRepository
 
         return new MeetingCollection(...$meetings);
     }
-
 }

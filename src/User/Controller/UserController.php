@@ -21,9 +21,9 @@ final class UserController
     public function indexAction() : string
     {
         //$users = $this->userRepository->fetchAll();
-        $meetings = $this->userRepository->get_Meetings_by_User($_GET['name'] ?? '');
+        $data = $this->userRepository->get_Meetings_by_User($_GET['name'] ?? '');
         ob_start();
-        include __DIR__.'/../../../views/user.phtml';
+        include __DIR__.'/../../../views/user-meetings.phtml';
         return ob_get_clean();
     }
 }
