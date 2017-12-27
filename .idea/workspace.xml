@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b110b4-5fe4-407b-b142-b5136a15eebd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" afterPath="$PROJECT_DIR$/src/Application/Router/ParseUriStaticNameHelper.php" />
-      <change beforePath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" afterPath="$PROJECT_DIR$/src/Meetup/Controller/ShowMeetingController.php" />
-      <change beforePath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" afterPath="$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fixtures/meeting.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,7 +55,7 @@
       <file leaf-file-name="MeetingRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="720">
               <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
               <folding>
                 <element signature="e#63#103#0#PHP" expanded="true" />
@@ -231,6 +228,11 @@
             <path>
               <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php_objet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_objet" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -286,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kevin Quach\Desktop\php_objet\fixtures" />
       <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Meetup\Controller" />
       <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\Community" />
       <recent name="C:\Users\Kevin Quach\Desktop\php_objet\src\User\Factory" />
@@ -329,12 +332,12 @@
       <workItem from="1513348486884" duration="30000" />
       <workItem from="1513348719014" duration="3878000" />
       <workItem from="1513358258188" duration="948000" />
-      <workItem from="1514280763475" duration="36029000" />
+      <workItem from="1514280763475" duration="36427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50811000" />
+    <option name="totallyTimeSpent" value="51209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -850,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Meetup/Repository/MeetingRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="720">
           <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
           <folding>
             <element signature="e#63#103#0#PHP" expanded="true" />
