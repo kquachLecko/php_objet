@@ -1,14 +1,15 @@
 <?php /* @var $users \Application\Collection\MeetingCollection */ ?>
-<h1>User : <?= $meetings[0]->name() ?></h1>
+    <h1>User : <?= $meetings[0]->name() ?></h1>
 
+    <h2>Meetings</h2>
 
-<h2>Meetings</h2>
+    <?php foreach ($meetings[1] as $meeting) : /* @var $meetings \Application\Entity\Meeting */ ?>
+        <ul>
+            <li>Community : <?= $meeting[1]->getName() ?></li>
+            <li>Titre : <?= $meeting[0]->titre() ?></li>
+            <li>Description : <?= $meeting[0]->description() ?></li>
+            <li>Debut : <?= $meeting[0]->endDate() ?></li>
+            <li>Fin : <?= $meeting[0]->startDate() ?></li>
 
-<?php foreach ($meetings[1] as $meeting) : /* @var $meetings \Application\Entity\Meeting */ ?>
-    <ul>
-        <li>Titre : <?= $meeting->titre() ?></li>
-        <li>Description : <?= $meeting->description() ?></li>
-        <li>Debut : <?= $meeting->endDate() ?></li>
-        <li>Fin : <?= $meeting->startDate() ?></li>
-    </ul>
-<?php endforeach ?>
+        </ul>
+    <?php endforeach ?>

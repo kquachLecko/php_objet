@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace User\Repository;
 
 
+use Community\Entity\Community;
 use Meetup\Entity\Meeting;
 use User\Collection\UserCollection;
 use User\Entity\User;
@@ -89,7 +90,7 @@ final class UserRepository
                 throw new UserNotFoundException();
             }
             $user = new User($data['user_name']);
-            $meetings[] = new Meeting($data['meeting_title'], $data['description'],new \DateTimeImmutable( $data['date_end']),new \DateTimeImmutable($data['date_start']));
+            $meetings[] = [new Meeting($data['meeting_title'], $data['description'],new \DateTimeImmutable( $data['date_end']),new \DateTimeImmutable($data['date_start'])),new Community($data['community_id'])];
         }
         $result=[$user, $meetings];
         return $result;

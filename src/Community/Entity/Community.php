@@ -13,10 +13,7 @@ namespace Community\Entity;
 
 class Community
 {
-    /**
-     * @var int
-     */
-    private $id;
+
     /**
      * @var string
      */
@@ -30,14 +27,6 @@ class Community
     public function __construct(string $name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return int
-     */
-    public function getId(): int
-    {
-        return $this->id;
     }
 
     /**

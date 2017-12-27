@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Meetup\Entity;
 
+use Community\Entity\Community;
 use DateTimeImmutable;
 
 final class Meeting
@@ -60,6 +61,22 @@ final class Meeting
     public function startDate() : string
     {
         return $this->date_start->format('Y-m-d H:i:s');;
+    }
+
+    /**
+     * @return Community
+     */
+    public function getCommunity(): Community
+    {
+        return $this->community;
+    }
+
+    /**
+     * @param Community $community
+     */
+    public function setCommunity(Community $community): void
+    {
+        $this->community = $community;
     }
 
 }
